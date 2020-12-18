@@ -17,12 +17,10 @@ class DecimalZip {
               ArrayList<String> array = new ArrayList<String>();
               for (int i = 0; i < c.length() || i < d.length(); i++) {
                      if (i < c.length()) {
-                            String charc = Character.toString(c.charAt(i));
-                            array.add(charc);
+                            array.add(Character.toString(c.charAt(i)));
                      }
                      if (i < d.length()) {
-                            String chard = Character.toString(d.charAt(i));
-                            array.add(chard);
+                            array.add(Character.toString(d.charAt(i)));
                      }
               }
               for (int i = 0; i < array.size(); i++) {
